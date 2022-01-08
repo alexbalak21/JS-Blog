@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <title>Blog</title>
+    </head>
+    <body>
+        <div class="conainer">
+            <h1 class="title">Blog Articles</h1>
+            <button class="new">New Article</button>
+
+            <div class="article">
+                <h2>Article Title</h2>
+                <span class="date"> <%= articles[0].date %></span>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo sit, voluptatum
+                    numquam maiores vel repellendus amet. Quidem magnam iusto mollitia iure
+                    voluptatibus, molestiae exercitationem itaque officiis magni earum
+                    necessitatibus quisquam.
+                </p>
+                <div class="buttons">
+                    <button class="readMore">Read More</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

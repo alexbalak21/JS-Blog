@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.conainer {
+    max-width: 1200px;
+    margin: 10px auto;
+    border: 1px solid lightgrey;
+    height: 95vh;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+button.new {
+    background-color: darkorange;
+    margin: 0 200px;
+}
+
+.article {
+    position: relative;
+    margin: 10px auto;
+    min-height: 250px;
+    border: 1px solid lightgrey;
+    max-width: 800px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.article h2,
+article .date {
+    margin-left: 4px;
+}
+
+.article p {
+    padding: 16px 10px;
+}
+
+.article .date {
+    display: inline-block;
+    padding: 16px 0;
+    color: gray;
+    font-style: italic;
+}
+
+.readMore {
+    background-color: forestgreen;
+}
+
+.edit {
+    background-color: dodgerblue;
+}
+
+.delete {
+    background-color: red;
+}
+
+.readMore {
+    background-color: forestgreen;
+}
+
+button {
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 10px;
+    background-color: dodgerblue;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 10px;
+}
