@@ -3,6 +3,8 @@ const router = express.Router();
 
 module.exports = router;
 
-router.get("/", (req, res) => {
-    res.send("in Articles");
+router.get("/new", (req, res) => {
+    res.render("articles/new");
 });
+
+router.post("/", (req, res) => {});
