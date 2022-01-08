@@ -15,7 +15,7 @@
     padding: 20px 0;
 }
 
-button.new {
+button.newArticle-btn {
     background-color: darkorange;
     margin: 0 200px;
 }
@@ -68,6 +68,7 @@ button {
     padding: 10px;
     border-radius: 6px;
     margin-top: 20px;
+    border: 1px solid grey;
 }
 
 .btn {
@@ -79,4 +80,58 @@ button {
     border: 1px solid grey;
     box-shadow: 1px 1px 5px grey;
     border-radius: 10px;
+}
+
+.newArticle {
+    position: relative;
+    margin: 10px auto;
+    min-height: 600px;
+    border: 1px solid lightgrey;
+    max-width: 800px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.newArticle label,
+input {
+    display: block;
+}
+
+.newArticle form {
+    width: 400px;
+    margin: auto;
+}
+
+.newArticle label {
+    margin: 10px 0;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.newArticle input {
+    width: 400px;
+    height: 32px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* border-radius: 6px; */
+}
+
+.newArticle textarea {
+    margin: auto;
+    width: 400px;
+    font-size: 20px;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 35px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.newArticle button.cancel {
+    background-color: dodgerblue;
+}
+
+.newArticle button.save {
+    background-color: forestgreen;
 }
